@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+
+
+
+
+
+
+
+
+    <div class="container">
+
+
+
+      <div class="todobox text-center my-4">
+        <br />
+        <div class="orange my-5 p-2 w-100 rounded shadow">
+          <h2 class="text text-white display-5"> T O  D 0  A P P </h2>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <!-- input -->
+          <input
+            type="text"
+            placeholder="Add Your Notes"
+            name=""
+            id="inp"
+            class="px-5 py-4 mb-5"
+            style="outline: none"
+          />
+
+          <!-- add button  -->
+          <button class="add mb-5 px-2 py-1 text-white" onclick="add()">
+            <i class="fa-solid fa-plus text-white"></i> Add
+          </button>
+
+          <!-- delete all button  -->
+          <button
+            class="btn btn-warning rounded-pill my-2 text-white dlt mb-5"
+            onclick="deleteall()"
+          >
+            Delete All
+          </button>
+        </div>
+
+        <ol class="mb-3" id="parent">
+          <br />
+        </ol>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

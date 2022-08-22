@@ -1,0 +1,43 @@
+body{
+  background-color: #FF6D00;
+}
+
+
+
+.container{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+
+.orange{
+
+  background-color: rgb(255, 182, 0);
+}
+
+
+.taskbox{
+  background-color: rgb(255, 182, 0);
+}
+
+input{
+  border: solid 3px rgb(255, 182, 0);
+  border-radius: 11px;
+  
+}
+.text{
+  color: rgb(255, 182, 0);
+}
+.add{
+  background-color: #3c0c68;
+  margin: 5px;
+  border-radius: 50px;
+  border: solid 3px rgb(255, 182, 0);
+  
+}
+
+.dlt{
+  background-color: #3c0c68;
+  border: solid 3px rgb(255, 182, 0);
+}
