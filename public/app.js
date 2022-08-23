@@ -112,9 +112,12 @@ objectsData.splice(index,1);
  renderQuestions();
  }
 
+
+
   window.deleteall = function(){
-objectsData = {}
-   renderQuestions();
+set(ref(databs, "inps/"),{value:null});
+var parent = document.getElementById("parent");
+parent.innerHTML ="";
 }
 
 
